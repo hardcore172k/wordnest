@@ -117,7 +117,7 @@ const About = () => {
               <span className="gradient-text block">WordNest</span>
             </h2>
             <p className="text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-12">
-              We're building the future of professional blogging, where expert
+              We&apos;re building the future of professional blogging, where expert
               knowledge meets beautiful storytelling, and where every voice has
               the power to inspire and educate.
             </p>
@@ -175,7 +175,7 @@ const About = () => {
               </p>
               <p className="text-gray-600 leading-relaxed">
                 We believe that everyone has valuable knowledge to share, and
-                we're here to amplify those voices through beautiful,
+                we&apos;re here to amplify those voices through beautiful,
                 accessible, and engaging content.
               </p>
             </div>
@@ -198,7 +198,7 @@ const About = () => {
                 Our Vision
               </h3>
               <p className="text-gray-600 leading-relaxed text-lg mb-6">
-                To become the world's most trusted platform for professional
+                To become the world&apos;s most trusted platform for professional
                 knowledge sharing, where quality content meets exceptional user
                 experience.
               </p>
@@ -231,12 +231,12 @@ const About = () => {
                   As a UX designer and a software engineer respectively, they
                   spent countless hours searching for quality content in their
                   fields. They realized that while there were many brilliant
-                  professionals creating amazing work, there wasn't a dedicated
+                  professionals creating amazing work, there wasn&apos;t a dedicated
                   platform that celebrated depth, expertise, and beautiful
                   presentation.
                 </p>
                 <p>
-                  That's when the idea for WordNest was born. They envisioned a
+                  That&apos;s when the idea for WordNest was born. They envisioned a
                   platform that would be the "nest" where words of wisdom could
                   flourish - a place where professionals could share their
                   knowledge in a beautifully designed, easily discoverable
@@ -245,7 +245,7 @@ const About = () => {
                 <p>
                   Starting with just 5 writers and a handful of articles,
                   WordNest has grown into a thriving community of over 45 expert
-                  contributors and 50,000+ monthly readers. But we're just
+                  contributors and 50,000+ monthly readers. But we&apos;re just
                   getting started.
                 </p>
               </div>
@@ -341,7 +341,7 @@ const About = () => {
                 Our Growth
               </h3>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                See how our community has grown and the impact we're making in
+                See how our community has grown and the impact we&apos;re making in
                 professional knowledge sharing.
               </p>
             </div>
@@ -550,7 +550,7 @@ const About = () => {
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
                 "The quality of content and community on WordNest is unmatched.
-                It's where I come to both learn from others and share my own
+                It&apos;s where I come to both learn from others and share my own
                 experiences."
               </p>
               <div className="flex text-yellow-400">
@@ -576,7 +576,7 @@ const About = () => {
               Join the WordNest Community
             </h3>
             <p className="text-xl mb-8 opacity-90">
-              Whether you're here to learn, share, or connect - there's a place
+              Whether you&apos;re here to learn, share, or connect - there&apos;s a place
               for you in our growing community of professionals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
