@@ -31,7 +31,7 @@ export default function SignupModal({ isOpen, closeModal, modalType }) {
       className="fixed inset-0 signup-modal flex items-center justify-center z-50"
       onClick={(e) => e.target.id === 'signupModal' && closeModal()}
     >
-      <div className="modal-content bg-white rounded-3xl p-8 max-w-md w-full mx-4 shadow-2xl">
+      <div className="modal-content bg-white rounded-3xl p-8 max-w-md w-full max-h-[95vh] overflow-auto custom-scrollbar mx-4 shadow-2xl">
         <div className="text-center mb-8">
           <div className="w-16 h-16 sunset-gradient rounded-2xl flex items-center justify-center mx-auto mb-4">
             <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">

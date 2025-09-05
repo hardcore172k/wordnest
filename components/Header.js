@@ -1,19 +1,19 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
-export default function Header({ openSignupModal }) {
+export default function Header({ openSignupModal, setIsLoginOpen }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
 
   const navItems = [
-    { name: 'Home', href: '/' },
-    { name: 'Articles', href: '/articles' },
-    { name: 'Categories', href: '/categories' },
-    { name: 'About', href: '/about' },
-    { name: 'Contact', href: '/contact' },
+    { name: "Home", href: "/" },
+    { name: "Articles", href: "/articles" },
+    { name: "Categories", href: "/categories" },
+    { name: "About", href: "/about" },
+    { name: "Contact", href: "/contact" },
   ];
 
   return (
@@ -47,8 +47,8 @@ export default function Header({ openSignupModal }) {
                 href={item.href}
                 className={`nav-item font-medium transition-colors ${
                   pathname === item.href
-                    ? 'text-orange-500 active'
-                    : 'text-gray-700 hover:text-orange-500'
+                    ? "text-orange-500 active"
+                    : "text-gray-700 hover:text-orange-500"
                 }`}
               >
                 {item.name}
@@ -58,11 +58,14 @@ export default function Header({ openSignupModal }) {
 
           {/* Login + CTA Buttons */}
           <div className="hidden md:flex items-center space-x-3">
-            <button className="text-gray-700 hover:text-orange-500 px-4 py-2 rounded-full font-medium transition-colors border border-gray-200 hover:border-orange-300">
+            <button
+              onClick={() => setIsLoginOpen(true)}
+              className="text-gray-700 hover:text-orange-500 px-4 py-2 rounded-full font-medium transition-colors border border-gray-200 hover:border-orange-300"
+            >
               Login
             </button>
             <button
-              onClick={() => openSignupModal('community')}
+              onClick={() => openSignupModal("community")}
               className="sunset-gradient text-white px-6 py-3 rounded-full font-semibold button-hover pulse-glow"
             >
               Join Community
@@ -98,8 +101,8 @@ export default function Header({ openSignupModal }) {
                   href={item.href}
                   className={`block px-6 py-3 font-medium ${
                     pathname === item.href
-                      ? 'text-orange-500'
-                      : 'text-gray-700 hover:text-orange-500'
+                      ? "text-orange-500"
+                      : "text-gray-700 hover:text-orange-500"
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
@@ -108,13 +111,15 @@ export default function Header({ openSignupModal }) {
               ))}
               <button
                 className="block w-full text-left px-6 py-3 text-gray-700 hover:text-orange-500 border-t border-gray-100"
-                onClick={() => setIsMenuOpen(false)}
+                onClick={() => {
+                  setIsLoginOpen(true)
+                  setIsMenuOpen(false)}}
               >
                 Login
               </button>
               <button
                 onClick={() => {
-                  openSignupModal('community');
+                  openSignupModal("community");
                   setIsMenuOpen(false);
                 }}
                 className="block w-full text-left px-6 py-3 sunset-gradient text-white font-semibold"

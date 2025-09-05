@@ -130,3 +130,8 @@ body {
     transform: translateY(0) scale(1);
   }
 }
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;  /* thickness */
+    height: 8px; /* horizontal scrollbar thickness */
+  }

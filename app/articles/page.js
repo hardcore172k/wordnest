@@ -5,6 +5,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Newsletter from "../../components/NewsLetter";
 import SignupModal from "../../components/SignUpModal";
+import LoginModal from "../../components/LoginModal";
 
 export default function Articles() {
   const [currentFilter, setCurrentFilter] = useState("all");
@@ -12,20 +13,19 @@ export default function Articles() {
   const [visibleCount, setVisibleCount] = useState(0);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [modalType, setModalType] = useState('community');
+  const [modalType, setModalType] = useState("community");
+  const [isLoginOpen, setIsLoginOpen] = useState(false);
 
-  
   const openSignupModal = (type) => {
     setModalType(type);
     setIsModalOpen(true);
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflow = "hidden";
   };
 
   const closeSignupModal = () => {
     setIsModalOpen(false);
-    document.body.style.overflow = 'auto';
+    document.body.style.overflow = "auto";
   };
-
 
   const articles = [
     {
@@ -435,7 +435,10 @@ export default function Articles() {
 
   return (
     <>
-      <Header openSignupModal={openSignupModal} />
+      <Header
+        openSignupModal={openSignupModal}
+        setIsLoginOpen={setIsLoginOpen}
+      />
       {/* Main Content */}
       <main className="container mx-auto px-6 py-16">
         {/* Page Header */}
@@ -733,6 +736,10 @@ export default function Articles() {
         isOpen={isModalOpen}
         closeModal={closeSignupModal}
         modalType={modalType}
+      />
+      <LoginModal
+        isOpen={isLoginOpen}
+        closeModal={() => setIsLoginOpen(false)}
       />
     </>
   );
