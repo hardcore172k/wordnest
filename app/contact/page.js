@@ -163,8 +163,8 @@ const Contact = () => {
               Get in <span className="gradient-text block">Touch</span>
             </h2>
             <p className="text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-12 fade-in-up stagger-1">
-              Have questions, ideas, or want to join our community? We'd love to
-              hear from you. Let's start a conversation that could change
+              Have questions, ideas, or want to join our community? We&apos;d love to
+              hear from you. Let&apos;s start a conversation that could change
               everything.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto fade-in-up stagger-2">
@@ -203,7 +203,7 @@ const Contact = () => {
               How Can We Help?
             </h3>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Choose the best way to reach us based on your needs. We're here to
+              Choose the best way to reach us based on your needs. We&apos;re here to
               support you every step of the way.
             </p>
           </div>
@@ -224,7 +224,7 @@ const Contact = () => {
               </h4>
               <p className="text-gray-600 leading-relaxed mb-6">
                 Questions about WordNest, our platform, or how to get started?
-                We're here to help with any general questions.
+                We&apos;re here to help with any general questions.
               </p>
               <div className="space-y-2 text-sm text-gray-500">
                 <p>
@@ -307,7 +307,7 @@ const Contact = () => {
                   Send Us a Message
                 </h3>
                 <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                  Fill out the form below and we'll get back to you as soon as
+                  Fill out the form below and we&apos;ll get back to you as soon as
                   possible. We read every message personally.
                 </p>
               </div>
@@ -333,7 +333,7 @@ const Contact = () => {
                     Message Sent Successfully!
                   </h4>
                   <p className="text-green-600">
-                    Thank you for reaching out. We'll get back to you within 24
+                    Thank you for reaching out. We&apos;ll get back to you within 24
                     hours.
                   </p>
                 </div>
@@ -601,7 +601,7 @@ const Contact = () => {
                           htmlFor="newsletter"
                           className="text-sm text-gray-600 leading-relaxed"
                         >
-                          I'd like to receive updates about new articles and
+                          I&apos;d like to receive updates about new articles and
                           WordNest news via email.
                         </label>
                       </div>
@@ -671,7 +671,7 @@ const Contact = () => {
               Frequently Asked Questions
             </h3>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Find quick answers to common questions. Can't find what you're
+              Find quick answers to common questions. Can&apos;t find what you&apos;re
               looking for? Contact us directly.
             </p>
           </div>
@@ -783,7 +783,7 @@ const Contact = () => {
               </button>
               <div className="faq-content hidden px-8 pb-6">
                 <p className="text-gray-600 leading-relaxed">
-                  Yes! We're always interested in partnerships with companies,
+                  Yes! We&apos;re always interested in partnerships with companies,
                   educational institutions, and other platforms that align with
                   our mission. Contact us with "Partnership Opportunity" as the
                   subject to discuss potential collaborations.
@@ -828,7 +828,7 @@ const Contact = () => {
               Visit Our Office
             </h3>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Located in the heart of San Francisco's innovation district. Drop
+              Located in the heart of San Francisco&apos;s innovation district. Drop
               by for a coffee and chat about the future of content.
             </p>
           </div>
@@ -929,7 +929,7 @@ const Contact = () => {
             <h3 className="text-4xl font-bold mb-6">Ready to Connect?</h3>
             <p className="text-xl mb-8 opacity-90">
               Whether you have a question, an idea, or want to join our
-              community - we're here to help make it happen.
+              community - we&apos;re here to help make it happen.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
