@@ -12,18 +12,18 @@ export default function Articles() {
   const [visibleCount, setVisibleCount] = useState(0);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [modalType, setModalType] = useState('community');
+  const [modalType, setModalType] = useState(&apos;community&apos;);
 
   
   const openSignupModal = (type) => {
     setModalType(type);
     setIsModalOpen(true);
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflow = &apos;hidden&apos;;
   };
 
   const closeSignupModal = () => {
     setIsModalOpen(false);
-    document.body.style.overflow = 'auto';
+    document.body.style.overflow = &apos;auto&apos;;
   };
 
 
@@ -566,7 +566,7 @@ export default function Articles() {
                   Explore the cutting-edge technologies and frameworks that are
                   reshaping how we build web applications. From AI-powered
                   development tools to the rise of edge computing, discover
-                  what's coming next in the world of web development.
+                  what&apos;s coming next in the world of web development.
                 </p>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
@@ -698,7 +698,7 @@ export default function Articles() {
                 No Articles Found
               </h3>
               <p className="text-gray-600 mb-6">
-                We couldn't find any articles matching your search. Try
+                We couldn&apos;t find any articles matching your search. Try
                 different keywords or browse our categories.
               </p>
               <button
