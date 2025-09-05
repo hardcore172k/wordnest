@@ -12,18 +12,18 @@ export default function Articles() {
   const [visibleCount, setVisibleCount] = useState(0);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [modalType, setModalType] = useState(&apos;community&apos;);
+  const [modalType, setModalType] = useState('community');
 
   
   const openSignupModal = (type) => {
     setModalType(type);
     setIsModalOpen(true);
-    document.body.style.overflow = &apos;hidden&apos;;
+    document.body.style.overflow = 'hidden';
   };
 
   const closeSignupModal = () => {
     setIsModalOpen(false);
-    document.body.style.overflow = &apos;auto&apos;;
+    document.body.style.overflow = 'auto';
   };
 
 
