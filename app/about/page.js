@@ -237,7 +237,7 @@ const About = () => {
                 </p>
                 <p>
                   That&apos;s when the idea for WordNest was born. They envisioned a
-                  platform that would be the "nest" where words of wisdom could
+                  platform that would be the &quot;nest&quot; where words of wisdom could
                   flourish - a place where professionals could share their
                   knowledge in a beautifully designed, easily discoverable
                   format.
@@ -489,9 +489,9 @@ const About = () => {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "WordNest has become my go-to source for high-quality
+                &quot;WordNest has become my go-to source for high-quality
                 professional insights. The content is always well-researched and
-                actionable."
+                actionable.&quot;
               </p>
               <div className="flex text-yellow-400">
                 {[...Array(5)].map((_, i) => (
@@ -519,9 +519,9 @@ const About = () => {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "As a writer on WordNest, I love how the platform showcases
+                &quot;As a writer on WordNest, I love how the platform showcases
                 content beautifully and connects me with engaged readers who
-                truly value expertise."
+                truly value expertise.&quot;
               </p>
               <div className="flex text-yellow-400">
                 {[...Array(5)].map((_, i) => (
@@ -549,9 +549,9 @@ const About = () => {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "The quality of content and community on WordNest is unmatched.
+                &quot;The quality of content and community on WordNest is unmatched.
                 It&apos;s where I come to both learn from others and share my own
-                experiences."
+                experiences.&quot;
               </p>
               <div className="flex text-yellow-400">
                 {[...Array(5)].map((_, i) => (
