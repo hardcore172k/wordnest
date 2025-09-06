@@ -163,9 +163,9 @@ const Contact = () => {
               Get in <span className="gradient-text block">Touch</span>
             </h2>
             <p className="text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-12 fade-in-up stagger-1">
-              Have questions, ideas, or want to join our community? We&apos;d love to
-              hear from you. Let&apos;s start a conversation that could change
-              everything.
+              Have questions, ideas, or want to join our community? We&apos;d
+              love to hear from you. Let&apos;s start a conversation that could
+              change everything.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto fade-in-up stagger-2">
               <div className="text-center">
@@ -203,8 +203,8 @@ const Contact = () => {
               How Can We Help?
             </h3>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Choose the best way to reach us based on your needs. We&apos;re here to
-              support you every step of the way.
+              Choose the best way to reach us based on your needs. We&apos;re
+              here to support you every step of the way.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 mb-16">
@@ -238,13 +238,13 @@ const Contact = () => {
             <div className="contact-card bg-white rounded-3xl p-8 shadow-soft text-center">
               <div className="w-20 h-20 design-gradient rounded-full flex items-center justify-center mx-auto mb-6">
                 <svg
-                  className="w-10 h-10 text-white"
-                  fill="currentColor"
+                  className="w-20 h-20 text-white bg-gradient-to-br from-pink-400 to-yellow-400 rounded-full p-2"
                   viewBox="0 0 20 20"
+                  fill="currentColor"
                 >
                   <path
                     fillRule="evenodd"
-                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z"
+                    d="M10 10a3 3 0 100-6 3 3 0 000 6zm-7 8a7 7 0 0114 0H3z"
                     clipRule="evenodd"
                   />
                 </svg>
@@ -266,19 +266,16 @@ const Contact = () => {
               </div>
             </div>
             <div className="contact-card bg-white rounded-3xl p-8 shadow-soft text-center">
-              <div className="w-20 h-20 tech-gradient rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg
-                  className="w-10 h-10 text-white"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </div>
+              <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-6">
+  <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+    <path
+      fillRule="evenodd"
+      d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+      clipRule="evenodd"
+    />
+  </svg>
+</div>
+
               <h4 className="text-2xl font-bold text-gray-800 mb-4">
                 Technical Support
               </h4>
@@ -307,8 +304,8 @@ const Contact = () => {
                   Send Us a Message
                 </h3>
                 <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                  Fill out the form below and we&apos;ll get back to you as soon as
-                  possible. We read every message personally.
+                  Fill out the form below and we&apos;ll get back to you as soon
+                  as possible. We read every message personally.
                 </p>
               </div>
               {showSuccessMessage && (
@@ -333,8 +330,8 @@ const Contact = () => {
                     Message Sent Successfully!
                   </h4>
                   <p className="text-green-600">
-                    Thank you for reaching out. We&apos;ll get back to you within 24
-                    hours.
+                    Thank you for reaching out. We&apos;ll get back to you
+                    within 24 hours.
                   </p>
                 </div>
               )}
@@ -601,8 +598,8 @@ const Contact = () => {
                           htmlFor="newsletter"
                           className="text-sm text-gray-600 leading-relaxed"
                         >
-                          I&apos;d like to receive updates about new articles and
-                          WordNest news via email.
+                          I&apos;d like to receive updates about new articles
+                          and WordNest news via email.
                         </label>
                       </div>
                       <div className="flex items-start">
@@ -671,8 +668,8 @@ const Contact = () => {
               Frequently Asked Questions
             </h3>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Find quick answers to common questions. Can&apos;t find what you&apos;re
-              looking for? Contact us directly.
+              Find quick answers to common questions. Can&apos;t find what
+              you&apos;re looking for? Contact us directly.
             </p>
           </div>
           <div className="max-w-4xl mx-auto space-y-6">
@@ -698,10 +695,10 @@ const Contact = () => {
               <div className="faq-content hidden px-8 pb-6">
                 <p className="text-gray-600 leading-relaxed">
                   To become a writer on WordNest, simply fill out our contact
-                  form with &quot;Become a Writer&quot; as the subject. Include samples of
-                  your work and tell us about your expertise. Our content team
-                  will review your application and get back to you within 48
-                  hours.
+                  form with &quot;Become a Writer&quot; as the subject. Include
+                  samples of your work and tell us about your expertise. Our
+                  content team will review your application and get back to you
+                  within 48 hours.
                 </p>
               </div>
             </div>
@@ -783,10 +780,11 @@ const Contact = () => {
               </button>
               <div className="faq-content hidden px-8 pb-6">
                 <p className="text-gray-600 leading-relaxed">
-                  Yes! We&apos;re always interested in partnerships with companies,
-                  educational institutions, and other platforms that align with
-                  our mission. Contact us with &quot;Partnership Opportunity&quot; as the
-                  subject to discuss potential collaborations.
+                  Yes! We&apos;re always interested in partnerships with
+                  companies, educational institutions, and other platforms that
+                  align with our mission. Contact us with &quot;Partnership
+                  Opportunity&quot; as the subject to discuss potential
+                  collaborations.
                 </p>
               </div>
             </div>
@@ -828,8 +826,8 @@ const Contact = () => {
               Visit Our Office
             </h3>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Located in the heart of San Francisco&apos;s innovation district. Drop
-              by for a coffee and chat about the future of content.
+              Located in the heart of San Francisco&apos;s innovation district.
+              Drop by for a coffee and chat about the future of content.
             </p>
           </div>
           <div className="max-w-2xl mx-auto">
