@@ -698,7 +698,7 @@ const Contact = () => {
               <div className="faq-content hidden px-8 pb-6">
                 <p className="text-gray-600 leading-relaxed">
                   To become a writer on WordNest, simply fill out our contact
-                  form with "Become a Writer" as the subject. Include samples of
+                  form with &quot;Become a Writer&quot; as the subject. Include samples of
                   your work and tell us about your expertise. Our content team
                   will review your application and get back to you within 48
                   hours.
@@ -785,7 +785,7 @@ const Contact = () => {
                 <p className="text-gray-600 leading-relaxed">
                   Yes! We&apos;re always interested in partnerships with companies,
                   educational institutions, and other platforms that align with
-                  our mission. Contact us with "Partnership Opportunity" as the
+                  our mission. Contact us with &quot;Partnership Opportunity&quot; as the
                   subject to discuss potential collaborations.
                 </p>
               </div>
