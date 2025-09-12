@@ -356,7 +356,7 @@ export default function Dashboard() {
           <section id="dashboard-section" className="section-content">
             <div className="mb-8">
               <h2 className="text-4xl font-bold text-gray-800 mb-4">Welcome back, {userName}! 👋</h2>
-              <p className="text-xl text-gray-600">Here's what's happening with your content today.</p>
+              <p className="text-xl text-gray-600">Here&apos;s what&apos;s happening with your content today.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
               <div className="stats-card">

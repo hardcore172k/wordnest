@@ -1038,7 +1038,7 @@ export default function Admin() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Delete Writer Account</h3>
-                <p className="text-gray-600 mb-6">Are you sure you want to delete this writer's account? This will also remove all their articles. This action cannot be undone.</p>
+                <p className="text-gray-600 mb-6">Are you sure you want to delete this writer&apos;s account? This will also remove all their articles. This action cannot be undone.</p>
                 <div className="flex space-x-4">
                   <button
                     onClick={() => closeModal('delete-writer-modal')}

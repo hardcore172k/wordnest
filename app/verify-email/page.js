@@ -144,7 +144,7 @@ export default function VerifyEmail() {
               </svg>
             </div>
             <div className="text-left">
-              <h3 className="font-semibold text-gray-800 mb-2">What's Next?</h3>
+              <h3 className="font-semibold text-gray-800 mb-2">What&apos;s Next?</h3>
               <ul className="text-sm text-gray-600 space-y-1">
                 <li>• Check your email inbox (and spam folder)</li>
                 <li>• Click the verification link</li>
@@ -163,7 +163,7 @@ export default function VerifyEmail() {
         </div>
         <div className="mt-8 pt-6 border-t border-gray-200 stagger-4 fade-in">
           <p className="text-sm text-gray-500">
-            Didn't receive the email? Check your spam folder or{' '}
+            Didn&apos;t receive the email? Check your spam folder or{' '}
             <button onClick={contactSupport} className="text-orange-500 hover:text-orange-600 font-medium underline">
               contact support
             </button>
